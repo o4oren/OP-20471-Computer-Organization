@@ -49,3 +49,6 @@ compare:
 	li $v0, 4
         la $a0, right_string 	# load the string into $a0 (that's what the syscall will use)
         syscall	
+		
+	li $v0, 10	
+	syscall
